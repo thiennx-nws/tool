@@ -2,11 +2,17 @@
   "name": "DrawTool",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "build": "npx webpack"
+  },
   "repository": "git@github.com:thiennx-nws/tool.git",
   "author": "thien-nws <thiennx@newwave.vn>",
   "license": "MIT",
   "devDependencies": {
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "fabric-with-gestures": "^2.3.3"
   }
 }
